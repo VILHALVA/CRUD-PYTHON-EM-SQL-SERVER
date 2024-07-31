@@ -6,7 +6,7 @@
 <img src="./IMAGENS/FOTO_3.png" align="center" width="500"> <br>
 
 ## DESCRIÇÃO:
-Este aplicativo é um gerenciador de usuários que permite adicionar, listar, atualizar e excluir informações de usuários armazenadas em um banco de dados MySQL CRUD. Ele foi projetado para fornecer uma interface simples e interativa para manipular os dados dos usuários.
+Este aplicativo é um gerenciador de usuários que permite adicionar, listar, atualizar e excluir informações de usuários armazenadas em um banco de dados SQL SERVER CRUD. Ele foi projetado para fornecer uma interface simples e interativa para manipular os dados dos usuários.
 
 Funcionalidades principais:
 
@@ -18,7 +18,7 @@ Funcionalidades principais:
 
 4. **Excluir Usuário**: Remove um usuário específico do banco de dados com base no nome fornecido.
 
-O aplicativo fornece um menu intuitivo para o usuário interagir com essas funcionalidades. Ele utiliza a linguagem de programação Python e o conector MySQL para estabelecer a conexão com o banco de dados e executar as operações de manipulação de dados.
+O aplicativo fornece um menu intuitivo para o usuário interagir com essas funcionalidades. Ele utiliza a linguagem de programação Python e o conector SQL SERVER para estabelecer a conexão com o banco de dados e executar as operações de manipulação de dados.
 
 Essa aplicação é útil em cenários onde é necessário armazenar e gerenciar informações de usuários de forma eficiente, como em sistemas de cadastro, administração de usuários em plataformas web, entre outros.
 
@@ -74,6 +74,30 @@ Certifique-se de substituir `DESKTOP-PK3RLSU`, `Cadastro`, `TesteDB`, `meu_usuar
    ```
 
    - Isso iniciará o aplicativo Python que permite adicionar, listar, atualizar e excluir usuários do banco de dados `cadastro`.
+
+### 5. INTERAGINDO COM APLICATIVO:
+1. **Adicionando um Usuário**:
+   - Selecione a opção `1`.
+   - Digite o nome do usuário e pressione Enter.
+   - Digite a idade do usuário e pressione Enter.
+
+2. **Listando Usuários**:
+   - Selecione a opção `2`.
+   - O programa exibirá a lista de usuários cadastrados.
+
+3. **Atualizando um Usuário**:
+   - Selecione a opção `3`.
+   - Digite o nome do usuário a ser atualizado e pressione Enter.
+   - Digite o novo nome do usuário e pressione Enter.
+   - Digite a nova idade do usuário e pressione Enter.
+
+4. **Excluindo um Usuário**:
+   - Selecione a opção `4`.
+   - Digite o nome do usuário a ser excluído e pressione Enter.
+
+5. **Saindo do Programa**:
+   - Selecione a opção `5`.
+   - O programa exibirá uma mensagem de saída e encerrará a execução.
 
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em muitas linguagens, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
